@@ -1,0 +1,13 @@
+'''
+S01Q02
+
+   - Print the multiplication table of 17
+'''
+
+
+
+x = 17
+y = 1
+while y <= 10:
+    print(x,'x',y,'=',x*y)
+    y = y+1
