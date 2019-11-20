@@ -1,0 +1,25 @@
+'''
+S01AQ02
+
+Re-write the earlier question of S01Q02 using functions as mentioned below :
+
+           You can use following code template to create your solution : https://git.io/vgoeT
+           [ Click on "RAW" button if you find it difficult to download the code ]
+
+   - Print the multiplication table of 17
+'''
+
+
+def multiply(a,b):
+    return a*b
+
+def main():
+    x = 17
+    y = 1
+    while y <= 10:
+        mul = multiply(x,y)
+        print(x,'x',y,'=',mul)
+        y = y+1
+
+#Main start from here
+main()
