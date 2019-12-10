@@ -1,3 +1,17 @@
+'''
+Write a program that generates a HTML file. 
+Prompt the user for webpage title and webpage body contents. 
+The webpage body should contain 
+    one main header, 
+    one sub header, and 
+    at least 2 paragraphs.
+
+A sample output is shown below
+
+'''
+
+
+
 fh = open('html_file.txt','w')
 fh.write('\n')
 fh.write('\n')
@@ -35,5 +49,7 @@ fh.write('\n')
 fh.write('\n')
 fh.write('\n')
 fh.close()
+      
+
       
 
